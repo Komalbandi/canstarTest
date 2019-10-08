@@ -14,3 +14,41 @@
         width: 100%;
     }
 }
+
+.transform {
+    animation-duration: 5s;
+    animation-name: transform;
+}
+
+@keyframes transform {
+    from {
+        font-size: 100px;
+    }
+
+    to {
+        font-size: 32px;
+    }
+}
+
+.changeColor {
+    animation-duration: 5s;
+    animation-name: changeColor;
+}
+
+@keyframes changeColor {
+    from {
+        color: #ffffff;
+    }
+    25% {
+        color: #bfff00;
+    }
+    50% {
+        color: #0080ff;
+    }
+    75% {
+        color: #ff00ff;
+    }
+    to {
+        color: #000000;
+    }
+}
