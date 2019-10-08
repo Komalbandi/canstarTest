@@ -7,17 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class WidgetsComponent implements OnInit {
 
-    progressWidth = 30;
-
     constructor() {
-        // while (this.progressWidth < 100) {
-        //     // setTimeout(() => {
-        //     //     this.progressWidth++;
-        //     //     console.log(this.progressWidth);
-        //     // }, 1000);
-        //     this.progressWidth++;
-        //     console.log(this.progressWidth);
-        // }
     }
 
     ngOnInit() {

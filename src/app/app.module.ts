@@ -4,18 +4,18 @@ import {RouterModule} from '@angular/router';
 import {appRoutes} from './app-router';
 
 import {AppComponent} from './app.component';
-import {HomeComponent} from './pages/home/home.component';
 import {TableComponent} from './pages/table/table.component';
 import {WidgetsComponent} from './pages/widgets/widgets.component';
-import { CssElementsComponent } from './pages/css-elements/css-elements.component';
+import {CssElementsComponent} from './pages/css-elements/css-elements.component';
+import {DataPopulationComponent} from './pages/data-population/data-population.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent,
         TableComponent,
         WidgetsComponent,
-        CssElementsComponent
+        CssElementsComponent,
+        DataPopulationComponent
     ],
     imports: [
         BrowserModule,
